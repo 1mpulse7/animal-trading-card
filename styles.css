@@ -1,0 +1,32 @@
+/*styles class used for italics*/
+.animal-info {
+  font-style: italic ;
+}
+/*S/C for removing bullet points and bold text on list items*/
+li {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+/* main border, margins, etc  */
+.backboard {
+  border:30px solid red;
+  max-width: 300px;
+  min-width: 300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: blue;
+  box-shadow: 0px 10px 20px 0 grey, 0px 10px 20px 0 grey;
+}
+
+/* seperate grooved border */
+.groove {
+  border: 20px solid red;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+img {
+  box-shadow: 0px 5px 20px 0px grey, 0px 5px 10px 0px grey;
+}
